@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-01T14:22:26 IST" name="Default suite" finished-at="2026-05-01T14:22:38 IST" duration-ms="11643">
+    <groups>
+    </groups>
+    <test started-at="2026-05-01T14:22:26 IST" name="Default test" finished-at="2026-05-01T14:22:38 IST" duration-ms="11643">
+      <class name="PractApril.LaunchURL_Test">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:26 IST" name="setUpReport" finished-at="2026-05-01T14:22:26 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:26 IST" name="setUp" finished-at="2026-05-01T14:22:27 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaunchRanorex()[pri:1, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:27 IST" name="LaunchRanorex" finished-at="2026-05-01T14:22:30 IST" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchRanorex -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:30 IST" name="tearDown" finished-at="2026-05-01T14:22:31 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:31 IST" name="setUp" finished-at="2026-05-01T14:22:31 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaunchGoogle()[pri:2, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:31 IST" name="LaunchGoogle" finished-at="2026-05-01T14:22:33 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:33 IST" name="tearDown" finished-at="2026-05-01T14:22:33 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:33 IST" name="setUp" finished-at="2026-05-01T14:22:33 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaunchBlazeMeter()[pri:3, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:33 IST" name="LaunchBlazeMeter" finished-at="2026-05-01T14:22:38 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBlazeMeter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:38 IST" name="tearDown" finished-at="2026-05-01T14:22:38 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:PractApril.LaunchURL_Test@4562e04d]" started-at="2026-05-01T14:22:38 IST" name="flushReport" finished-at="2026-05-01T14:22:38 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- PractApril.LaunchURL_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
