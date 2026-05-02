@@ -1,5 +1,17 @@
+# Azure Pipelines for Maven + Java
+# Builds the project and runs tests with Apache Maven
+# Runs daily at 1:30 PM IST (08:00 UTC)
+
 trigger:
 - master
+
+schedules:
+- cron: "0 8 * * *"        # 08:00 UTC = 13:30 IST
+  displayName: Daily run at 1:30 PM IST
+  branches:
+    include:
+    - master
+  always: true              # run even if no code changes
 
 pool:
   vmImage: 'windows-latest'
@@ -10,8 +22,15 @@ steps:
     mavenPomFile: 'PracticeInter/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.11'
+    jdkVersionOption: '1.25'          # Latest stable JDK (Java 25 LTS)
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+# Optional: publish build artifacts (JAR/WAR files)
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'PracticeInter/target'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
