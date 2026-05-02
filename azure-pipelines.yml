@@ -1,6 +1,3 @@
-# Azure Pipelines for Maven + Java
-# Builds the project and runs tests with Apache Maven
-
 trigger:
 - master
 
@@ -10,7 +7,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'PracticeInter/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
